@@ -48,3 +48,12 @@ if __name__ == '__main__':
     n = int(input())
     for i in range(n):
         print(i*i)
+
+# Bob needs a fast way to calculate the volume of a rectangular cuboid with three values: the length, width and height of the cuboid.
+
+# Write a function to help Bob with this calculation.
+
+def get_volume_of_cuboid(length, width, height):
+    volume = length * width * height
+    pass
+    return volume
