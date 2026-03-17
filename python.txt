@@ -1,0 +1,4 @@
+A virtual environment is a tool used to isolate specific python environment on a single machine, allowing you to work on mutiple projects with different dependencies.
+
+* python -m venv myenv
+* myenv\Scripts\activate
