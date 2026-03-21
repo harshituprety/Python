@@ -8,9 +8,15 @@ class ShowClass:
     print(f"This is the {self._value}")
 
   @property
-  def value(self):
-    return self._value
+  def ten_value(self):
+    return 10* self._value
+
+  @ten_value.setter
+  def ten_value(self,new_value):
+    self.value = new_value/10
   
 obj = ShowClass(30)
-print(obj.value)
+obj.ten_value = 84
+print(obj.ten_value)
+obj.show()
 
